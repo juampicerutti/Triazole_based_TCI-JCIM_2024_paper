@@ -10,7 +10,7 @@ The corresponding data is organized as part of the following folders:
 
 2- `Receptor-grids`: this folder contains the receptor files as used in the molecular docking assays with AutoDock-GPU.
 
-3- `3-4FPMK-mostrelevatn`: this folder contains the .pdbqt structures of the hit compuounds derived from the 4FPMK warhead.
+3- `3-4FPMK-mostrelevant`: this folder contains the .pdbqt structures of the hit compuounds derived from the 4FPMK warhead.
 
 4- `Aldehydes`: this folder contains the .pdbqt structures of the hit compuounds derived from the Ald warhead.
 
