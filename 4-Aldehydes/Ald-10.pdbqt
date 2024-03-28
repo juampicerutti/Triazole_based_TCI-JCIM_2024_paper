@@ -1,0 +1,58 @@
+REMARK SMILES O=C[C@H](CO)n1cc([C@@H]([NH2+]Cc2ccc3c(c2)OCO3)C2CCCCC2)nn1
+REMARK SMILES IDX 6 1 7 2 8 3 27 4 28 5 3 6 2 7 1 8 4 9 5 10 9 12 10 13 11 16
+REMARK SMILES IDX 12 17 13 18 17 19 14 20 16 21 15 22 18 23 20 24 19 25 21 26
+REMARK SMILES IDX 22 27 26 28 23 29 25 30 24 31
+REMARK H PARENT 5 11 10 14 10 15
+REMARK Flexibility Score: inf
+ROOT
+ATOM      1  N1  MOL     1      -1.400   0.363   1.332  1.00  0.00    -0.239 N 
+ATOM      2  C4  MOL     1      -0.103   0.557   0.941  1.00  0.00     0.142 A 
+ATOM      3  C5  MOL     1      -0.164   0.592  -0.433  1.00  0.00     0.140 A 
+ATOM      4  N3  MOL     1      -1.455   0.358  -0.830  1.00  0.00    -0.129 NA
+ATOM      5  N4  MOL     1      -2.198   0.206   0.254  1.00  0.00    -0.066 NA
+ENDROOT
+BRANCH   1   6
+ATOM      6  C2  MOL     1      -1.960   0.190   2.663  1.00  0.00     0.198 C 
+BRANCH   6   7
+ATOM      7  C1  MOL     1      -1.434   1.185   3.670  1.00  0.00     0.253 C 
+ATOM      8  O1  MOL     1      -0.530   1.991   3.465  1.00  0.00    -0.301 OA
+ENDBRANCH   6   7
+BRANCH   6   9
+ATOM      9  C3  MOL     1      -1.722  -1.227   3.176  1.00  0.00     0.191 C 
+BRANCH   9  10
+ATOM     10  O2  MOL     1      -2.489  -1.453   4.355  1.00  0.00    -0.394 OA
+ATOM     11  H5  MOL     1      -2.414  -2.399   4.582  1.00  0.00     0.210 HD
+ENDBRANCH   9  10
+ENDBRANCH   6   9
+ENDBRANCH   1   6
+BRANCH   3  12
+ATOM     12  C6  MOL     1       0.905   0.752  -1.466  1.00  0.00     0.239 C 
+BRANCH  12  13
+ATOM     13  N2  MOL     1       0.607  -0.151  -2.643  1.00  0.00    -0.335 N 
+ATOM     14  H8  MOL     1       0.839   0.307  -3.528  1.00  0.00     0.347 HD
+ATOM     15  H9  MOL     1      -0.419  -0.270  -2.649  1.00  0.00     0.347 HD
+BRANCH  13  16
+ATOM     16  C7  MOL     1       1.238  -1.503  -2.619  1.00  0.00     0.298 C 
+BRANCH  16  17
+ATOM     17  C8  MOL     1       0.887  -2.328  -1.412  1.00  0.00     0.010 A 
+ATOM     18  C9  MOL     1      -0.413  -2.869  -1.265  1.00  0.00     0.013 A 
+ATOM     19  C13 MOL     1       1.835  -2.526  -0.392  1.00  0.00     0.060 A 
+ATOM     20  C10 MOL     1      -0.773  -3.577  -0.112  1.00  0.00     0.051 A 
+ATOM     21  C12 MOL     1       1.447  -3.229   0.730  1.00  0.00     0.166 A 
+ATOM     22  C11 MOL     1       0.179  -3.735   0.869  1.00  0.00     0.165 A 
+ATOM     23  O3  MOL     1       2.230  -3.486   1.810  1.00  0.00    -0.454 OA
+ATOM     24  O4  MOL     1       0.002  -4.366   2.060  1.00  0.00    -0.454 OA
+ATOM     25  C14 MOL     1       1.333  -4.281   2.616  1.00  0.00     0.468 C 
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH  12  13
+BRANCH  12  26
+ATOM     26  C15 MOL     1       1.064   2.227  -1.927  1.00  0.00     0.054 C 
+ATOM     27  C16 MOL     1      -0.146   2.784  -2.703  1.00  0.00     0.010 C 
+ATOM     28  C20 MOL     1       2.360   2.422  -2.741  1.00  0.00     0.010 C 
+ATOM     29  C17 MOL     1       0.067   4.242  -3.112  1.00  0.00     0.001 C 
+ATOM     30  C19 MOL     1       2.561   3.881  -3.147  1.00  0.00     0.001 C 
+ATOM     31  C18 MOL     1       1.355   4.423  -3.907  1.00  0.00     0.000 C 
+ENDBRANCH  12  26
+ENDBRANCH   3  12
+TORSDOF 9
