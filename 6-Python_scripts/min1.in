@@ -1,0 +1,12 @@
+Initial minimization of the system
+&cntrl
+ imin=1,
+ maxcyc = 10000, 
+ ncyc=2500,
+ ntb=1,
+ ntr=1,
+ cut=10.0,
+ restraintmask =':1-215',
+ restraint_wt = 500.0,
+&end
+END
