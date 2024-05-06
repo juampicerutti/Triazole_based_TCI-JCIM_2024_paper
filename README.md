@@ -1,7 +1,7 @@
 # Structure-aided computational design of triazole-based targeted covalent inhibitors fo Cruzipain.
 
 ## Repository description:
-
+-
 In this repository, the source datafiles and Python scripts used as part of the scientific research reported in the manuscript are included.
 
 The corresponding data is organized as part of the following folders:
