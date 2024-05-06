@@ -1,0 +1,35 @@
+Heating of the system with restraints
+&cntrl
+ imin=0,
+ irest=0,
+ ntx=1,
+ ntb=2,
+ ntp=1,
+ pres0=1.0,
+ cut=10.0,
+ ntr=1,
+ ntc=2,
+ ntf=2,
+ tempi=0.0,
+ temp0=300.0,
+ ntt=3,
+ gamma_ln=1.0,
+ nstlim=250000, 
+ dt=0.002,
+ ntpr=100,
+ ntwx=100,
+ ntwr=1000,
+ restraintmask=':1-215',
+ restraint_wt=5.0,
+ nmropt=1,
+&end
+&wt
+TYPE='TEMP0',
+ISTEP1=1,
+ISTEP2=50000,
+VALUE1=0.0,
+VALUE2=300.0,
+/
+&wt TYPE='END'
+/
+END

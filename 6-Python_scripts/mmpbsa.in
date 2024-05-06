@@ -1,0 +1,10 @@
+Per-residue GB and PB decomposition 
+&general 
+startframe = 1, interval = 100, verbose=1, 
+/ 
+&gb 
+igb=5, saltcon=0.100, 
+/ 
+&decomp 
+idecomp=2, csv_format=0, 
+/
